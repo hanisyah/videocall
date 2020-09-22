@@ -231,7 +231,7 @@
     }
 }
 
-body {
+/* body {
   display: flex;
   height: 100vh;
   margin: 0;
@@ -239,6 +239,16 @@ body {
   justify-content: center;
   padding: 0 50px;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+} */
+html, body {
+  margin:0;
+  padding:0;
+  height:100%;
+}
+
+#container {
+ position:relative;
+ min-height: 100%;
 }
 video {
   max-width: calc(25% - 50px);
@@ -301,6 +311,14 @@ video {
   display: flex;
   flex-shrink: 0;
 }
+/* .footer{
+  width: 100%;
+  height: 50px;
+  padding-left: 10px;
+  line-height: 50px;
+  position: absolute;
+  bottom: 0px;
+} */
 input {
   height: 76px;
   border: none;
