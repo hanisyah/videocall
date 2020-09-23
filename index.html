@@ -25,11 +25,11 @@
                     <i class="fa fa-microphone-alt text-white"></i>
                 </button>
 
-                <button class="btn btn-sm rounded-0 btn-no-effect" id="share-screen" title="Share screen">
+                <button class="btn btn-sm rounded-0 btn-no-effect" id="btnStartStopScreenshare" title="Share screen">
                     <i class="fa fa-desktop text-white"></i>
                 </button>
 
-                <button class="btn btn-sm rounded-0 btn-no-effect" id="record" title="Record">
+                <button class="btn btn-sm rounded-0 btn-no-effect" id="btn-start-recording" title="Record">
                     <i class="fa fa-dot-circle text-white"></i>
                 </button>
 
@@ -50,17 +50,15 @@
             
             <div class="row">
                 <div class="main col-md-9">                    
-                    <video id="localVideo" autoplay muted controls width="400" height="240"></video>
+                   <video id="localVideo" autoplay muted controls width="400" height="240"></video>
 				   <video id="remoteVideo" autoplay controls width="400" height="240"></video>
                    <video autoplay muted controls id="screenShare" width="400" height="240"></video>
                    
                    <div class="audio">
                     <br>
-                    <button id="btn-start-recording">Start Recording</button>
                     <button id="btn-stop-recording" disabled>Stop Recording</button>
                     <button id="btn-release-microphone" disabled>Release Microphone</button>
                     <button id="btn-download-recording" disabled>Download</button>
-                    <button id="btnStartStopScreenshare">Screen Share</button>
                     <hr>
                     <div><audio controls autoplay playsinline></audio></div>
                   </div>
